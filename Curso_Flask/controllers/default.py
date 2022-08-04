@@ -1,5 +1,5 @@
-from Curso_Flask import app
+from Curso_Flask import Curso_Flask
 
-@app.route("/")
+@Curso_Flask.route("/")
 def index():
    return "Hello Lari!"

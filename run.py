@@ -1,4 +1,4 @@
-from Curso_Flask import app
+from Curso_Flask import manager
 
 if __name__ == '__main__':
-    app.run()
+    manager.run()
